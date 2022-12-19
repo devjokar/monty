@@ -64,6 +64,8 @@ char *_realloc(char *ptr, unsigned int old_size, unsigned int new_size);
 ssize_t getstdin(char **lineptr, int file);
 char  *clean_line(char *content);
 void free_stack(stack_t *head);
+void addnode(stack_t **head, int n);
+void addqueue(stack_t **head, int n);
 void op_push(stack_t **head, unsigned int number);
 void op_pall(stack_t **head, unsigned int number);
 void op_pint(stack_t **head, unsigned int number);
